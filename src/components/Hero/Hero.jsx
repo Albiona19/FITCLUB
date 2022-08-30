@@ -11,25 +11,24 @@ const Hero = () => {
               <div className="the-best-ad">
               <div></div>
 
-                  <span>The best Fitness club in the town</span>
+                  <span>The best cupcake in town</span>
                  
               </div>
               {/* Hero Heading */}
               <div className="hero-text">
                 <div className='div1'>
                   <span className='stroke-text'>
-                    Shape
+                  What
                   </span>
                   <span>
-                     Your
+                  Makes Life
                   </span>
                   </div>
                   <div className='div2'><span>
-                    Ideal Body</span></div>
+                  so sweet.</span></div>
                     <div>
                       <span>
-                      In here we will help you to shape and build your ideal body 
-                      live up your life to fullset
+                      A form of sweet food made from flour, sugar, and other ingredients, that is usually baked.
 
                       </span>
                     </div>

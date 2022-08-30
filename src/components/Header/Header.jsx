@@ -8,10 +8,10 @@ const Header = () => {
 
         <ul className='header-menu'>
           <li>Home</li>
-          <li>Programs</li>
+          <li>Recipes</li>
           <li>Why Us</li>
-          <li>Plans</li>
-          <li>Testimonials</li>
+          <li>Category</li>
+          <li>Menu</li>
         </ul>
     </div>
   )
