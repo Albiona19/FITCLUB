@@ -1,0 +1,5 @@
+Folder Structure in React
+Pure CSS
+Responsive Design
+Emailjs
+Also Deployment
