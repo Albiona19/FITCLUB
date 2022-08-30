@@ -1,7 +1,10 @@
 import React from 'react'
 import './Reasons.css'
-export const Reasons = () => {
+
+const Reasons = () => {
   return (
     <div>Reasons</div>
   )
 }
+
+export default Reasons
