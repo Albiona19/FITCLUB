@@ -28,14 +28,39 @@ const Header = () => {
       </div>
     ) :(
         <ul className='header-menu'>
-          <li onClick={()=>setMenuOpened(false)}>Home
-          <Link>Home</Link>
-          </li>
+          <li onClick={()=>setMenuOpened(false)}>  <Link to='hero'
+            onClick={()=>setMenuOpened(false)}
+            spy={true}
+            smooth={true}>
+            
+            Home</Link></li>
+        
           
-          <li onClick={()=>setMenuOpened(false)}>Programs</li>
-          <li onClick={()=>setMenuOpened(false)}>Why Us</li>
-          <li onClick={()=>setMenuOpened(false)}>Plans</li>
-          <li onClick={()=>setMenuOpened(false)}>Testimonials</li>
+          <li onClick={()=>setMenuOpened(false)}> <Link to='programs'
+            onClick={()=>setMenuOpened(false)}
+            spy={true}
+            smooth={true}>
+            
+            Programs</Link></li>
+           <li onClick={()=>setMenuOpened(false)}> <Link to='reasons'
+            onClick={()=>setMenuOpened(false)}
+            spy={true}
+            smooth={true}>
+            
+            Why Us</Link></li>
+          <li onClick={()=>setMenuOpened(false)}> <Link to='plans'
+            onClick={()=>setMenuOpened(false)}
+            spy={true}
+            smooth={true}>
+            
+            Plans</Link></li>
+          <li onClick={()=>setMenuOpened(false)}>
+            <Link to='Testimonials'
+            onClick={()=>setMenuOpened(false)}
+            spy={true}
+            smooth={true}>
+            
+            Testimonials</Link></li>
         </ul>
     )}
     </div>
